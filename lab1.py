@@ -1,6 +1,5 @@
 import sys
 import peewee as pw
-from prettytable import PrettyTable
 from random import randint, choice
 from faker import Faker
 

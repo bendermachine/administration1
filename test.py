@@ -25,7 +25,7 @@ def test_clients_len():
     lab1.fill()
     assert len(lab1.Clients.select()) >= 10
 
-
+print("test")
 def test_orders_len():
     lab1.fill()
     assert len(lab1.Orders.select()) >= 10

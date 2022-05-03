@@ -73,7 +73,7 @@ def show(table_name=''):
         print("Такой таблицы не существует")
         help()
 
-
+print("efwefwe")
 if __name__ == "__main__":
     if len(sys.argv) == 1:
         help()

@@ -9,7 +9,7 @@ def test_create_database():
 
 
 def test_clients_fields():
-    assert lab1.Clients.name == True
+    assert lab1.Clients.name == False
     assert lab1.Clients.city == True
     assert lab1.Clients.address == True
 
